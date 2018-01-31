@@ -28,8 +28,10 @@
 
 
 
-      var result = lowercase('Christian', uppercase)
-      target.innertext = result
+      var result = lowercase('Christian',  function(name){
+          return name.toUpperCase()
+      })
+      target.innerText = result
 
     </script>
   </body>
