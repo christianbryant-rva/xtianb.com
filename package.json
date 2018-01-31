@@ -1,0 +1,14 @@
+{
+  "name": "xtianb.com",
+  "version": "1.0.0.",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Nunjucks, M.E.A.N, Foundation 6, Sass"
+  ],
+  "author": "Christian Bryant",
+  "license": "ISC"
+}

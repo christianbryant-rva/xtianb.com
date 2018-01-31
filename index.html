@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Christian W. Bryant</title>
+    <styles>
+        .main-text {
+            color: red;
+        }
+    </styles>
+  </head>
+  <body>
+    <h1 id='result' styles='color: red'></h1>
+    <script>
+      var target = document.querySelector('#result')
+
+      function uppercase(name) {
+          return name.toUpperCase()
+      }
+
+      function lowercase(name) {
+          return name.toLowerCase()
+      }
+
+      function formatName(name, formatFunction) {
+          return formatFunction(name)
+      }
+
+
+
+      var result = lowercase('Christian', uppercase)
+      target.innertext = result
+
+    </script>
+  </body>
+</html>
