@@ -4,6 +4,7 @@ var app = express()
 // app.use(function(req, res, next) {
 //     console.log('hey')
 // })
+
 app.get('/', (req, res) => res.send('Hello Christian'))
 
 
